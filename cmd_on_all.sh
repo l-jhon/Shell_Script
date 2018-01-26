@@ -56,3 +56,5 @@ for FILE in `$cat ${PATH}`;
                 $echo 'Servidor '${FILE}
                 $ssh -p 22 root@${FILE} ${V_CMD}
         done
+
+Teste
